@@ -1,0 +1,8 @@
+tpl = (10, 20, 30, 40, 50)
+print("Tuple: ", tpl)
+print("First element: ", tpl[0])
+print("Last element: ", tpl[-1])
+print("Slicing: ", tpl[1:4])
+print("Concatenation: ", tpl + (60, 70))
+print("Repetition: ", tpl * 2)
+print("Checking membership: ", 30 in tpl)
